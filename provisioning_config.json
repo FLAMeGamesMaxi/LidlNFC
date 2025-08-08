@@ -1,0 +1,13 @@
+{
+    "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.example.kiosknfc/.MyDeviceAdminReceiver",
+    "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://github.com/FLAMeGamesMaxi/LidlNFC/releases/download/v28/app-debug.apk",
+    "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM": "OEI4MkU0MDlCQ0FDRTlCQkY4NzhFRDI2RTI5Mzg3NjAyMDBDMjk5MUZFMUEzODM5MzE4NDFFNDQwQ0YzMjRENA==",
+    "android.app.extra.PROVISIONING_SKIP_ENCRYPTION": true,
+    "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": true,
+    "android.app.extra.PROVISIONING_ORGANIZATION_NAME": "Lidl",
+    "android.app.extra.PROVISIONING_SUPPORT_URL": "https://lidl.com",
+    "android.app.extra.PROVISIONING_SKIP_USER_SETUP": true,
+    "android.app.extra.PROVISIONING_SKIP_WELCOME": true,
+    "android.app.extra.PROVISIONING_SKIP_USER_CREATION": true,
+    "android.app.extra.PROVISIONING_KEEP_SCREEN_ON": true
+}

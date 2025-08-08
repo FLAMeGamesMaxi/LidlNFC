@@ -1,0 +1,38 @@
+// Module-level build.gradle
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.kiosknfc'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.kiosknfc"
+        minSdk 24
+        targetSdk 33
+        versionCode 58
+        versionName "1.0"
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.github.MikeOrtiz:TouchImageView:3.0.0'
+}
+
